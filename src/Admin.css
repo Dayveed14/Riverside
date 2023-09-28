@@ -1,0 +1,112 @@
+.admin-dashboard {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+/* Style the header */
+.adminHeader {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+/* Style the navigation menu */
+.adminNav {
+  margin-top: 3rem;
+}
+.adminNav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.adminNav ul li {
+  margin-bottom: 10px;
+}
+
+.adminNav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.adminNav ul li a:hover {
+  color: #555;
+}
+
+/* Add more styles as needed */
+.sidebar {
+  background-color: #333;
+  color: #fff;
+  width: 250px;
+  padding: 20px;
+}
+/* Style the dashboard content area */
+.dashboard-content {
+  padding: 20px;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.product-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.product-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.product-table tr:hover {
+  background-color: #ddd;
+}
+
+.inner-content {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  width: 200px;
+  height: 150px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+/* CSS for styling the Edit and Delete buttons */
+.action-column {
+  text-align: center; /* Center-align buttons */
+}
+
+.edit-button,
+.delete-button {
+  padding: 5px 10px;
+  margin: 2px;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
